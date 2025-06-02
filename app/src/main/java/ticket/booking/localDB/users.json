@@ -1,0 +1,37 @@
+[
+    {
+      "userId": "abcdef",
+      "name": "Lovepreet Singh",
+      "password": "notStored",
+      "hashPassword": "12345",
+      "ticketsBooked": [
+        {
+          "ticketId": "TCKT123",
+          "userId": "abcdef",
+          "source": "Bangalore",
+          "dest": "Delhi",
+          "dateOfTravel": "2023-12-08",
+          "train": {
+            "trainId": "bacs",
+            "trainNo": 12345,
+            "seats": [
+              [0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0, 0]
+            ],
+            "stationTimes": {
+              "bangalore": "13:50:00",
+              "jaipur": "16:30:00",
+              "delhi": "20:00:00"
+            },
+            "stations": [
+              "bangalore",
+              "jaipur",
+              "delhi"
+            ]
+          }
+        }
+      ]
+    }
+  ]
