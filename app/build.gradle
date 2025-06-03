@@ -36,11 +36,13 @@ java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
     }
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 application {
     // Define the main class for the application.
-    mainClass = 'javapractice.App'
+    mainClass = 'ticket.booking.App'
 }
 
 tasks.named('test') {
